@@ -7,19 +7,13 @@
 
         public function index()
         { 
-            $data = [
-                'title'=> 'Posts',
-                'description' => 'Simple social network built on the CustomMVC PHP'
-            ];
+            $data = ['title'=> 'MyCustomPHPMVC'];
             $this->view('pages/index', $data);
         }
 
         public function about()
         {
-            $data = [
-                'title'=> 'About',
-                'description' => 'App to share posts'
-            ];
+            $data = ['title'=> 'About'];
             $this->view('pages/about',$data);
         }
     }

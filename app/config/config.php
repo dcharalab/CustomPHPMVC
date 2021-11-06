@@ -1,16 +1,14 @@
 <?php
     //DB Params
     define('DB_HOST','localhost');
-    define('DB_USER', 'dcharal');
-    define('DB_PASS','wHxQtosBl139HNvw');
-    define('DB_NAME','posts');
+    define('DB_USER', '_YOUR_USER_');
+    define('DB_PASS','_YOUR_PASS_');
+    define('DB_NAME','_YOUR_DBNAME_');
 
     //App Root
     define('APPROOT', dirname(dirname(__FILE__)));
     //url root
-    define('URLROOT', 'http://localhost/posts');
+    define('URLROOT', '_YOUR_URL_');
     //Site Name
-    define('SITENAME', 'Posts');
-    // App Version
-    define('APPVERSION', '1.0.0');
+    define('SITENAME', '_YOUR_SITENAME_');
     
